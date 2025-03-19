@@ -10,13 +10,13 @@ using namespace chrono; // пространство имён chrono предназначено для работы с д
 /// Числа Фибоначчи F(n) = F(n-1) + F(n-2)
 /// BigO: O(2^n)
 /// n - число
-int recurs_fib(int n);
+long long recurs_fib(long long n);
 
 /// функция, вычисляющая числа Фибоначчи с помощью цикла
 /// Числа Фибоначчи F(n) = F(n-1) + F(n-2)
 /// BigO: O(n)
 /// n - число
-int cycle_fib(int n);
+long long cycle_fib(long long n);
 
 // тестирование функций нахождения числа Фибоначчи
 void test_fib();
